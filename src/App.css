@@ -1,10 +1,36 @@
 .App {
-  text-align: center;
+  text-align:center;
+  
 }
-
+.calculo input{
+width: 200px;
+height: 25px;
+margin-bottom: 10px;
+color:black;
+background:rgba(73, 71, 71, 0.088);
+  
+}
+.calculo button{
+width: 80px;
+background: #005FE1;
+color: white;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 15px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.resultado {
+background: #A5A5A5;
+width: 200px;
+margin: auto;
+
+}
+.resul{
+  background: whitesmoke;
+  font-size: 17px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -35,4 +61,88 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#bloque{
+  height: 50px;
+  background-color: black;
+  width: 300px;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+#bloque:hover{
+  background-color: brown;
+}
+
+/*
+para los logos
+*/
+.logoRedes{
+  width: 60px;
+  height: 60px;
+  margin:10px;
+}
+.texto{
+  margin:10px 350px;
+  text-align: justify;
+  font-size: 20px;
+  font-weight: lighter;
+  font-family: sans-serif;
+}
+.flexBox{
+  display: flex;
+  margin: 10px;
+  flex-direction: row;
+  flex-wrap: wrap;
+ align-items: center;
+ align-content: center;
+  
+  justify-content: center;
+  background-color: chartreuse;
+  height: 500px;
+
+
+}
+
+/*Bloque*/
+.bloque1 {
+ width: 700px;
+ background-color: aqua;
+ height: 500px;
+ display: flex;
+ flex-direction: column;
+}
+.atributo1{
+  background-color: beige;
+  height: 200px;
+  width: 200px;
+  align-content: center;
+  justify-content: center;
+
+}
+.texto{
+
+}
+.bloqueInteractivo{
+  width: 700px;
+  background-color: red;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+.nombre1{
+ background-color: red;
+ height: 80px;
+ width: 100px;
+ margin:20px;
+ padding: 20px;
+}
+.nombre2{
+background-color: blue;
+ height: 80px;
+ width: 100px;
+ margin:20px;
+ padding: 20px;
 }
